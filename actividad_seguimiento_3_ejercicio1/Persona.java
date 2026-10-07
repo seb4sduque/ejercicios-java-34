@@ -6,7 +6,6 @@ public class Persona {
     private int identificacion;
     private String fechaNacimiento;
     private String paisNacimiento;
-    private String sexo;
     
     public Persona(String nombre, String apellido, int identificacion, String fechaNacimiento, String paisNacimiento, String sexo) {
         this.nombre = nombre;
@@ -14,7 +13,6 @@ public class Persona {
         this.identificacion = identificacion;
         this.fechaNacimiento = fechaNacimiento;
         this.paisNacimiento = paisNacimiento;
-        this.sexo = sexo;
     }
 
     public void info() {
@@ -23,7 +21,6 @@ public class Persona {
         System.out.println("identificacion: " + identificacion);
         System.out.println("fecha de nacimiento: " + fechaNacimiento);
         System.out.println("pais de nacimiento: " + paisNacimiento);
-        System.out.println("sexo: " + sexo);
     }
     
 }
